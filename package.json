@@ -7,8 +7,7 @@
     "start": "ng serve",
     "build": "ng build --prod  --base-href ./ && cp CNAME dist/CNAME",
     "test": "ng test",
-    "lint": "ng lint --force",
-    "e2e": "ng e2e"
+    "lint": "ng lint --force"
   },
   "pre-commit": [
     "lint"
@@ -38,6 +37,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^9.4.0",
     "codelyzer": "^4.5.0",
+    "cypress": "^6.2.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
@@ -47,7 +47,6 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "pre-commit": "^1.2.2",
-    "protractor": "^5.4.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "3.2.4"
