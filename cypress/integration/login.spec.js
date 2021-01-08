@@ -1,5 +1,3 @@
-const { createYield } = require("typescript");
-
 describe("Realizar Login", () => {
   it("Login com sucesso", () => {
     cy.login("testecypress@testecypress.com", "testecypress");
